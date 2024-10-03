@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  width: 100%;
+  display: block;
+}
+body {
+  background-color: #f7f7f7;
+}
+
+@import "bootstrap/scss/bootstrap-grid";
+
+.header {
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  color: #000;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.art1 {
+  color: #000;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 118.182% */
+  margin-bottom: 50px;
+}
+
+.art2 {
+  color: #000;
+  text-align: center;
+  font-family: "Heebo";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px; /* 127.778% */
+  margin-bottom: 50px;
+}
+
+.art {
+  padding: 25px 10px 30px 10px;
+}
+
+.infos {
+  color: #b3b3b3;
+  text-align: center;
+  font-family: "Heebo";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 200% */
+}
+
+strong {
+  color: #000;
+}
+
+.reviews {
+  background: #eee;
+  color: #000;
+  font-family: "Heebo";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px; /* 416.667% */
+  padding: 3px 20px;
+  width: 100%;
+}
+
+.review1 h1 {
+  color: #000;
+  font-family: "DM Serif Display";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 118.182% */
+}
+
+.review1 {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 25px 20px 30px 20px;
+}
+
+.by {
+  color: #000;
+  font-family: "Heebo";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 200% */
+  margin: 20px 0px;
+}
+
+.review1 h3 {
+  color: #000;
+  font-family: "Heebo";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.article-1,
+.article-2 {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.heebo h1 {
+  color: #000;
+  font-family: Heebo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px; /* 127.778% */
+}
+
+.heebo h2 {
+  color: #000;
+  font-family: Heebo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px; /* 127.778% */
+}
